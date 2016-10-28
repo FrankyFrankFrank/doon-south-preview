@@ -1,0 +1,239 @@
+* {
+  font-family: "azo-sans-web";
+}
+
+.jumbotron {
+  border-radius: 0;
+  margin-bottom: 0;
+  min-height: 700px;
+}
+.jumbotron {
+  background-color: #615d63;
+}
+.jumbotron .logo {
+  margin-top: 220px;
+  max-width:400px;
+}
+
+.jumbotron .ds-caret {
+  margin-top: 180px;
+}
+
+.ds-caret {
+  max-width: 60px;
+}
+
+.explore, .connect {
+  padding-bottom: 60px;
+}
+
+.explore {
+  background-color: #2f2235;
+  background-image: url('../img/graphic-leaf-01.svg');
+  background-repeat: no-repeat;
+  background-position: -40px 40px;
+  color: #e5e4e2;
+  padding-top: 170px;
+}
+
+.explore .intro {
+  padding-bottom: 40px;
+}
+
+.intro h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.intro h2::after {
+  border-bottom: 2px solid #c3996c;
+  content: " ";
+  display: block;
+  margin-bottom: 20px;
+  min-height: 30px;
+  width: 50px;
+}
+
+.amenity {
+  margin-bottom: 50px;
+}
+
+.amenity-icon {
+  width: 60px;
+}
+
+.amenity h3 {
+  color: #c3996c;
+  text-transform: uppercase;
+}
+
+.connect {
+  background-color: #e4e3e1;
+  color: #2f2235;
+  padding-top: 300px;
+}
+
+.connect h3 {
+  padding: 7px 26px;
+  display: inline-block;
+  border: 2px solid #c3996c;
+  font-size: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.connect ul {
+  -webkit-padding-start: 0;
+}
+
+.connect li {
+  display: block;
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.connect .ds-caret {
+  margin-top: 60px;
+}
+
+.live {
+  background-image: url('../img/graphic-leaf-02.svg');
+  background-repeat: no-repeat;
+  background-position: 200px 30px;
+  background-size: 280px;
+  color: #2f2235;
+  padding-top: 150px;
+}
+
+.viewer .home-type {
+  background-color: #c3996c;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.viewer #villas, .viewer #towns {
+  background-color: rgba(255,255,255,0.59);
+  border: 2px solid #2f2235;
+  font-size: 1.6em;
+  display: inline-block;
+  padding: 7px 26px;
+  margin:6px 12px;
+  text-transform: uppercase;
+}
+
+.viewer #villas.active, .viewer #towns.active {
+  background-color: #ffffff;
+}
+
+.viewer .floor-ind .pill {
+  background-color: rgba(195,153,108,0.73);
+  display: inline-block;
+  height: 18px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 74px;
+}
+
+.viewer .floor-ind .pill.active {
+  background-color: #c3996c;
+}
+
+.viewer .unit img {
+  max-height: 250px;
+  margin: 34px auto;
+}
+
+.viewer .unit h3, .viewer .unit h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.viewer .unit h4 {
+  margin-bottom: 2px;
+}
+
+.viewer .unit h3 {
+  color: #c3996c;
+  font-size: 2.6em;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.viewer .unit ul {
+  -webkit-padding-start: 0;
+}
+
+.viewer .unit li {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-right: 2px solid #2f2235;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.viewer .unit li:first-child {
+  padding-left: 0;
+}
+
+.viewer .unit li:last-child {
+  border-right: 0;
+}
+
+.viewer .unit .price {
+  font-size: 2.8em;
+  font-weight: 600;
+  letter-spacing: -1.6px;
+  transform: scaleX(0.9);
+  transform-origin: left top;
+}
+
+sup {
+  vertical-align: sub;
+}
+
+.viewer .floorplan {
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+
+.siteplan {
+  background-image: url('../img/graphic-leaf-04.svg');
+  background-size: 200px;
+  background-position: 200px 40px;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+}
+
+.siteplan {
+  border-top: 1px solid #eeeeee;
+}
+
+.legend {
+  font-weight: 600;
+  letter-spacing: 1px;
+  list-style-type: none;
+  text-transform: uppercase;
+  -webkit-padding-start: 0;
+  margin-top: 20px;
+}
+
+.legend li {
+  margin: 8px auto;
+}
+
+.legend .swatch {
+  display: inline-block;
+  height: 24px;
+  margin-right: 12px;
+  width: 36px;
+  vertical-align: middle;
+}
+
+.legend .swatch-villas {
+  background-color: #2f2235;
+}
+
+.legend .swatch-towns {
+  background-color: #c3996c;
+}
