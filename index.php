@@ -197,7 +197,7 @@
 
     <div class="row viewer">
 
-      <div class="col-xs-12 home-type text-center">
+      <div class="home-type col-xs-12 col-sm-10 col-sm-offset-1">
         <div id="villas" class="active">
           Villas
         </div>
@@ -205,9 +205,6 @@
           Towns
         </div>
       </div>
-
-
-
 
       <div class="col-sm-12 col-md-4 col-md-offset-1">
 
@@ -217,7 +214,12 @@
             <img class="drawing" src="img/graphic-villa-upland.svg" />
           </div>
 
-          <div class="description col-xs-12 col-sm-6 col-md-12">
+          <div class="unit col-xs-12 col-sm-6 col-md-12">
+            <div class="pill active"></div>
+            <div class="pill"></div>
+          </div>
+
+          <div class="description col-xs-12 col-sm-6 col-md-12 col-md-offset-0">
             <h4><strong>Upper</strong> Unit</h4>
             <h3>Upland</h3>
             <ul>
@@ -234,11 +236,6 @@
             <h5 class="price"><sup>$</sup>200,000</h5>
           </div>
 
-          <div class="unit col-xs-12">
-            <div class="pill active"></div>
-            <div class="pill"></div>
-          </div>
-
         </div>
 
       </div>
@@ -246,8 +243,6 @@
       <div class="floorplan col-xs-12 col-md-6">
         <img class="img img-responsive center-block" src="img/floorplan-upland-1.png" alt="uploand floorplan 1"/>
       </div>
-
-      <div class="clearfix visible-xs"></div>
 
     </div>
 
@@ -280,7 +275,7 @@
 
     <div class="row">
 
-      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text-center">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 text-center">
 
         <img class="logo img-responsive" src="img/logo-1-2-colour.svg" alt="Doon South - Naturally embraced living" />
 

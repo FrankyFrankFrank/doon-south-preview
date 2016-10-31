@@ -123,10 +123,12 @@
   padding-top: 150px;
 }
 
+.live .intro {
+  margin-bottom: 32px;
+}
+
 .viewer .home-type {
-  background-color: #c3996c;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 .viewer #villas, .viewer #towns {
@@ -135,21 +137,31 @@
   font-size: 1.6em;
   display: inline-block;
   padding: 7px 26px;
-  margin:6px 12px;
+  margin-top:6px;
+  margin-bottom: 6px;
   text-transform: uppercase;
 }
 
+.viewer #villas {
+  margin-right: 12px;
+}
+
+.viewer #towns {
+  margin-left: 12px;
+}
+
 .viewer #villas.active, .viewer #towns.active {
-  background-color: #ffffff;
+  background-color: #2f2235;
+  color: #ffffff;
 }
 
 .viewer .details {
-  margin-top: 20px;
   margin-bottom: 44px;
 }
 
 .viewer .unit {
-  margin-top: 22px;
+  margin-top: 3px;
+  margin-bottom: 12px;
   text-align: center;
 }
 
@@ -232,7 +244,6 @@ sup {
   margin-bottom: 44px;
   padding-top: 22px;
   padding-bottom: 22px;
-  background: #F5F5F5;
 }
 
 .siteplan {
@@ -308,8 +319,17 @@ sup {
     background-position: center;
   }
 
-  .viewer .description {
+  .viewer .home-type {
+    text-align: left;
+  }
+
+  .viewer .unit {
     padding-top: 40px;
+    text-align: left;
+  }
+
+  .viewer .floorplan {
+    background: #f7f7f7;
   }
 
   .floorplan img {
@@ -332,12 +352,12 @@ sup {
     background-image: url('../img/jumbotron-01-sm.jpg');
   }
 
-  .viewer .description {
+  .viewer .unit {
     padding-top: 0;
   }
 
-  .viewer .unit {
-    text-align: left;
+  .viewer .home-type {
+    margin-bottom: 12px;
   }
 
   .viewer .drawing {
