@@ -5,18 +5,23 @@
 .jumbotron {
   border-radius: 0;
   margin-bottom: 0;
-  min-height: 700px;
 }
 .jumbotron {
-  background-color: #615d63;
+  background-image: url('../img/jumbotron-01-xs.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-color: rgb(97, 93, 99);
+  background-blend-mode: overlay;
 }
 .jumbotron .logo {
-  margin-top: 220px;
+  margin-top: 270px;
   max-width:400px;
 }
 
 .jumbotron .ds-caret {
-  margin-top: 180px;
+  margin-top: 270px;
+  margin-bottom: 50px;
 }
 
 .ds-caret {
@@ -31,7 +36,8 @@
   background-color: #2f2235;
   background-image: url('../img/graphic-leaf-01.svg');
   background-repeat: no-repeat;
-  background-position: -40px 40px;
+  background-position: -30px 40px;
+  background-size: 360px;
   color: #e5e4e2;
   padding-top: 170px;
 }
@@ -68,9 +74,21 @@
 }
 
 .connect {
-  background-color: #e4e3e1;
+  background-color: #f7f7f7;
+  background-repeat: no-repeat;
   color: #2f2235;
-  padding-top: 300px;
+  padding-top: 60px;
+}
+
+.connect-bg {
+  background-image: url('../img/doon-south-blowing-dandielions-xs.jpg');
+  background-size: cover;
+  min-height: 400px;
+  padding: 0;
+}
+
+.connect .background {
+  padding: 0;
 }
 
 .connect h3 {
@@ -99,7 +117,7 @@
 .live {
   background-image: url('../img/graphic-leaf-02.svg');
   background-repeat: no-repeat;
-  background-position: 200px 30px;
+  background-position: 100% 30px;
   background-size: 280px;
   color: #2f2235;
   padding-top: 150px;
@@ -125,7 +143,17 @@
   background-color: #ffffff;
 }
 
-.viewer .floor-ind .pill {
+.viewer .details {
+  margin-top: 20px;
+  margin-bottom: 44px;
+}
+
+.viewer .unit {
+  margin-top: 22px;
+  text-align: center;
+}
+
+.viewer .unit .pill {
   background-color: rgba(195,153,108,0.73);
   display: inline-block;
   height: 18px;
@@ -134,36 +162,44 @@
   width: 74px;
 }
 
-.viewer .floor-ind .pill.active {
+.viewer .unit .pill:first-child {
+  margin-left: 0;
+}
+
+.viewer .unit .pill:last-child {
+  margin-left: 0;
+}
+
+.viewer .unit .pill.active {
   background-color: #c3996c;
 }
 
-.viewer .unit img {
+.viewer .drawing {
   max-height: 250px;
   margin: 34px auto;
 }
 
-.viewer .unit h3, .viewer .unit h4 {
+.description h3, .description h4 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.viewer .unit h4 {
+.description h4 {
   margin-bottom: 2px;
 }
 
-.viewer .unit h3 {
+.description h3 {
   color: #c3996c;
   font-size: 2.6em;
   font-weight: 600;
   margin-top: 3px;
 }
 
-.viewer .unit ul {
+.description ul {
   -webkit-padding-start: 0;
 }
 
-.viewer .unit li {
+.description li {
   display: inline-block;
   font-weight: 600;
   text-transform: uppercase;
@@ -172,15 +208,15 @@
   padding-left: 12px;
 }
 
-.viewer .unit li:first-child {
+.description li:first-child {
   padding-left: 0;
 }
 
-.viewer .unit li:last-child {
+.description li:last-child {
   border-right: 0;
 }
 
-.viewer .unit .price {
+.description .price {
   font-size: 2.8em;
   font-weight: 600;
   letter-spacing: -1.6px;
@@ -192,21 +228,21 @@ sup {
   vertical-align: sub;
 }
 
-.viewer .floorplan {
-  margin-top: 44px;
+.floorplan {
   margin-bottom: 44px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background: #F5F5F5;
 }
 
 .siteplan {
+  background-color: #f7f7f7;
   background-image: url('../img/graphic-leaf-04.svg');
   background-size: 200px;
-  background-position: 200px 40px;
+  background-position: 92% 30px;
   background-repeat: no-repeat;
   padding-top: 140px;
-}
-
-.siteplan {
-  border-top: 1px solid #eeeeee;
+  padding-bottom: 70px;
 }
 
 .legend {
@@ -241,4 +277,77 @@ sup {
 
 .register {
   padding-top: 150px;
+}
+
+.register .logo {
+  margin-bottom: 44px;
+}
+
+/*********************************/
+/*         SMALL DEVICES         */
+/*********************************/
+
+@media (min-width: 768px) {
+
+  .jumbotron {
+    background-image: url('../img/jumbotron-01-xs.jpg');
+  }
+
+  .jumbotron .logo {
+    margin-top: 310px;
+    max-width:500px;
+  }
+
+  .explore {
+    background-size: 470px;
+    background-position: 7% 40px;
+  }
+
+  .connect-bg {
+    background-image: url('../img/doon-south-blowing-dandielions-sm.jpg');
+    background-position: center;
+  }
+
+  .viewer .description {
+    padding-top: 40px;
+  }
+
+  .floorplan img {
+    max-height: 780px;
+  }
+
+  .siteplan {
+    background-position: 95% 30px;
+  }
+
+}
+
+/**********************************/
+/*         MEDIUM DEVICES         */
+/**********************************/
+
+@media (min-width: 992px) {
+
+  .jumbotron {
+    background-image: url('../img/jumbotron-01-sm.jpg');
+  }
+
+  .viewer .description {
+    padding-top: 0;
+  }
+
+  .viewer .unit {
+    text-align: left;
+  }
+
+  .viewer .drawing {
+    text-align: left;
+    width: 83%;
+  }
+
+  .connect-bg {
+    background-image: url('../img/doon-south-blowing-dandielions.jpg');
+    background-position: center;
+  }
+
 }

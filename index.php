@@ -27,6 +27,8 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <img class="logo" src="img/logo-1-grey.svg" alt="Doon South - Naturally embraced living" />
+      </div>
+      <div class="col-md-12 text-center">
         <img class="ds-caret" src="img/graphic-silver-caret.svg" />
       </div>
     </div>
@@ -37,14 +39,18 @@
 
     <div class="row">
 
-      <div class="col-md-12 intro">
+      <div class="intro col-xs-12 col-sm-6 col-sm-offset-1">
         <h2>Explore</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
         </p>
       </div>
 
-      <div class="amenity col-xs-6">
+    </div>
+
+    <div class="row">
+
+      <div class="amenity col-xs-6 col-sm-3 col-sm-offset-1">
         <img class="amenity-icon" src="img/amenity-parks.svg" alt="Parks Icon" />
         <h3>Parks</h3>
         <p>
@@ -52,7 +58,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6">
+      <div class="amenity col-xs-6 col-sm-3">
         <img class="amenity-icon" src="img/amenity-greenspace-and-marshland.svg" alt="Parks Icon" />
         <h3>Greenspace</h3>
         <p>
@@ -60,7 +66,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6">
+      <div class="amenity col-xs-6 col-sm-3">
         <img class="amenity-icon" src="img/amenity-trails.svg" alt="Parks Icon" />
         <h3>Trails</h3>
         <p>
@@ -68,7 +74,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6">
+      <div class="amenity col-xs-6 col-sm-3 col-sm-offset-1">
         <img class="amenity-icon" src="img/amenity-fishing.svg" alt="Parks Icon" />
         <h3>Fishing</h3>
         <p>
@@ -76,7 +82,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6">
+      <div class="amenity col-xs-6 col-sm-3">
         <img class="amenity-icon" src="img/amenity-culture.svg" alt="Parks Icon" />
         <h3>Culture</h3>
         <p>
@@ -84,7 +90,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6">
+      <div class="amenity col-xs-6 col-sm-3">
         <img class="amenity-icon" src="img/amenity-sports.svg" alt="Parks Icon" />
         <h3>Sports</h3>
         <p>
@@ -92,7 +98,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6">
+      <div class="amenity col-xs-6 col-sm-3 col-sm-offset-1">
         <img class="amenity-icon" src="img/amenity-golf.svg" alt="Parks Icon" />
         <h3>Golf</h3></h3>
         <p>
@@ -100,7 +106,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6">
+      <div class="amenity col-xs-6 col-sm-3">
         <img class="amenity-icon" src="img/amenity-shopping.svg" alt="Parks Icon" />
         <h3>Shopping</h3>
         <p>
@@ -108,7 +114,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6">
+      <div class="amenity col-xs-6 col-sm-3">
         <img class="amenity-icon" src="img/amenity-school.svg" alt="Parks Icon" />
         <h3>Schools</h3>
         <p>
@@ -124,11 +130,14 @@
 
   </div><!-- End EXPLORE -->
 
+  <div class="container-fluid connect-bg">
+  </div>
+
   <div class="container-fluid connect">
 
     <div class="row">
 
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1 col-md-5">
         <div class="intro">
           <h2>Connect</h2>
           <p>
@@ -137,11 +146,9 @@
         </div>
       </div>
 
-    </div>
+      <div class="clearfix visible-xs visible-sm"></div>
 
-    <div class="row">
-
-      <div class="col-xs-6">
+      <div class="col-xs-6 col-sm-2 col-sm-offset-1 col-md-offset-0">
         <h3>Flora</h3>
         <ul>
           <li>Lorem ipsum</li>
@@ -154,7 +161,7 @@
         </ul>
       </div>
 
-      <div class="col-xs-6">
+      <div class="col-xs-6 col-sm-2">
         <h3>Fauna</h3>
         <ul>
           <li>Lorem ipsum</li>
@@ -179,7 +186,7 @@
 
     <div class="row">
 
-      <div class="col-xs-12 intro">
+      <div class="intro col-xs-12 col-sm-5 col-sm-offset-1">
         <h2>Live</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -188,11 +195,9 @@
 
     </div>
 
-    <div class="viewer">
+    <div class="row viewer">
 
-    <div class="row home-type text-center">
-
-      <div class="col-xs-12">
+      <div class="col-xs-12 home-type text-center">
         <div id="villas" class="active">
           Villas
         </div>
@@ -201,40 +206,48 @@
         </div>
       </div>
 
-    </div>
 
-    <div class="row floor-ind text-center">
-      <div class="col-xs-12">
-        <div class="pill active"></div>
-        <div class="pill"></div>
-      </div>
-    </div>
 
-    <div class="row unit">
-      <div class="col-xs-12">
-        <img src="img/graphic-villa-upland.svg" />
-        <h4><strong>Upper</strong> Unit</h4>
-        <h3>Upland</h3>
-        <ul class="details">
-          <li>
-            1691 Sq. Ft.
-          </li>
-          <li>
-            3 Bed
-          </li>
-          <li>
-            2 Bath
-          </li>
-        </ul>
-        <h5 class="price"><sup>$</sup>200,000</h5>
-      </div>
-    </div>
 
-    <div class="row floorplan">
-      <div class="col-xs-10 col-xs-offset-1">
-        <img class="img img-responsive" src="img/floorplan-upland-1.png" alt="uploand floorplan 1"/>
+      <div class="col-sm-12 col-md-4 col-md-offset-1">
+
+        <div class="row details">
+
+          <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-12 col-md-offset-0">
+            <img class="drawing" src="img/graphic-villa-upland.svg" />
+          </div>
+
+          <div class="description col-xs-12 col-sm-6 col-md-12">
+            <h4><strong>Upper</strong> Unit</h4>
+            <h3>Upland</h3>
+            <ul>
+              <li>
+                1691 Sq. Ft.
+              </li>
+              <li>
+                3 Bed
+              </li>
+              <li>
+                2 Bath
+              </li>
+            </ul>
+            <h5 class="price"><sup>$</sup>200,000</h5>
+          </div>
+
+          <div class="unit col-xs-12">
+            <div class="pill active"></div>
+            <div class="pill"></div>
+          </div>
+
+        </div>
+
       </div>
-    </div>
+
+      <div class="floorplan col-xs-12 col-md-6">
+        <img class="img img-responsive center-block" src="img/floorplan-upland-1.png" alt="uploand floorplan 1"/>
+      </div>
+
+      <div class="clearfix visible-xs"></div>
 
     </div>
 
@@ -244,7 +257,7 @@
 
     <div class="row">
 
-      <div class="intro col-xs-12">
+      <div class="intro col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-1">
         <h2>Siteplan</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -255,11 +268,7 @@
         </ul>
       </div>
 
-    </div>
-
-    <div class="row map">
-
-      <div class="map col-xs-12">
+      <div class="map col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0">
         <img class="img img-responsive" src="img/doon-south-siteplan.jpg" alt="sitemap" />
       </div>
 
@@ -271,7 +280,7 @@
 
     <div class="row">
 
-      <div class="col-xs-12 text-center">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text-center">
 
         <img class="logo img-responsive" src="img/logo-1-2-colour.svg" alt="Doon South - Naturally embraced living" />
 
@@ -282,7 +291,7 @@
     <?php include('form.php') ?>
 
     <div class="row">
-        <div class="col-md-4 col-md-offset-4 col-sm-10 col-sm-offset-1">
+        <div class="col-sm-offset-1 col-md-6 col-md-offset-3 col-sm-10">
             <p id="disclaimer" class="text-center">You will be emailed to confirm your
             subscription. We may contact you in the future to
             provide updates and information on the Doon South
@@ -291,7 +300,7 @@
 
         </div>
 
-        <div class="col-xs-6 col-xs-offset-3 visible-xs" id="foliage">
+        <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-5" id="foliage">
           <img alt="Doon South Foliage Background" class="img-responsive" src="img/graphic-leaf-footer.svg">
         </div>
 

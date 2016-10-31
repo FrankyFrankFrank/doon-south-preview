@@ -3,7 +3,7 @@
   <!-- Begin MailChimp Signup Form -->
   <form action="//activagroup.us2.list-manage.com/subscribe/post?u=defa4cb9c993c4724097264fb&amp;id=c1a1bc77d8" class="validate form-horizontal" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
 
-    <div class="form col-md-4 col-md-offset-4">
+    <div class="form col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
 
       <div class="text-right help-block">
           <span class="asterisk">*</span> indicates required
@@ -58,7 +58,7 @@
 
     </div>
 
-    <div class="form col-md-4 col-md-offset-4">
+    <div class="form col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
       <!-- REGISTERING AS -->
       <div class="form-group white-bg">
         <label class="control-label col-md-4">Registering As</label>
@@ -178,7 +178,7 @@
       </div>
     </div>
 
-    <div class="form col-md-4 col-md-offset-4">
+    <div class="form col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
       <div class="form-group white-bg">
         <label class="control-label col-md-4">
           Where Did you First Hear About Doon South?
@@ -240,7 +240,7 @@
     </div>
 
 
-    <div class="submit form col-md-4 col-md-offset-4 col-sm-10 col-sm-offset-1">
+    <div class="submit form col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
       <input class="btn btn-primary btn-lg center-block hidden-sm hidden-xs" type="submit" value="Register">
       <input class="btn btn-primary btn-lg btn-block visible-sm visible-xs" type="submit" value="Register">
     </div>
