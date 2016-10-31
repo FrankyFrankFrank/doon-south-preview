@@ -216,6 +216,7 @@ sup {
   text-transform: uppercase;
   -webkit-padding-start: 0;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .legend li {
@@ -236,4 +237,8 @@ sup {
 
 .legend .swatch-towns {
   background-color: #c3996c;
+}
+
+.register {
+  padding-top: 150px;
 }

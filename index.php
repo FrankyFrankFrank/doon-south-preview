@@ -13,7 +13,12 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
 
+  <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+
+  <!-- Form Stylesheet -->
+  <link rel="stylesheet" href="css/form.css" type="text/css">
+
   </head>
   <body>
 
@@ -252,10 +257,51 @@
 
     </div>
 
+    <div class="row map">
+
+      <div class="map col-xs-12">
+        <img class="img img-responsive" src="img/doon-south-siteplan.jpg" alt="sitemap" />
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container-fluid register">
+
+    <div class="row">
+
+      <div class="col-xs-12 text-center">
+
+        <img class="logo img-responsive" src="img/logo-1-2-colour.svg" alt="Doon South - Naturally embraced living" />
+
+      </div>
+
+    </div>
+
+    <?php include('form.php') ?>
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 col-sm-10 col-sm-offset-1">
+            <p id="disclaimer" class="text-center">You will be emailed to confirm your
+            subscription. We may contact you in the future to
+            provide updates and information on the Doon South
+            community. We are committed to the consumers' privacy,
+            and adhere to our strict privacy policy.</p>
+
+        </div>
+
+        <div class="col-xs-6 col-xs-offset-3 visible-xs" id="foliage">
+          <img alt="Doon South Foliage Background" class="img-responsive" src="img/graphic-leaf-footer.svg">
+        </div>
+
+    </div>
+
   </div>
 
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
 
   <!-- Typekit  -->
@@ -264,6 +310,50 @@
 
   <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+
+  <!-- Vue JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.js"></script>
+
+  <!-- VUE Form Code -->
+  <script>
+    var app = new Vue({
+        el: '#form',
+        data: {
+            homeowner: false
+        }
+    });
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1376583802359674');
+    fbq('track', 'PageView');
+  </script>
+
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1376583802359674&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- DO NOT MODIFY -->
+  <!-- End Facebook Pixel Code -->
+
+  <!-- GA Code -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-5871032-10', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+
 
   </body>
 </html>
