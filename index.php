@@ -220,25 +220,26 @@
           </div>
 
           <div class="unit col-xs-12 col-sm-6 col-md-12">
-            <div class="pill active"></div>
-            <div class="pill"></div>
+            <div v-for="unit in activated" class="pill" v-bind:class="{ active: unit.active }"></div>
           </div>
 
-          <div class="description col-xs-12 col-sm-6 col-md-12 col-md-offset-0">
-            <h4><strong>Upper</strong> Unit</h4>
-            <h3>Upland</h3>
+          <div v-for="unit in activated" class="description col-xs-12 col-sm-6 col-md-12 col-md-offset-0">
+            <div v-show="unit.active">
+            <h4><strong>{{ unit.location }}</strong> Unit</h4>
+            <h3>{{ unit.name }}</h3>
             <ul>
               <li>
-                1691 Sq. Ft.
+                {{ unit.sqft }} Sq. Ft.
               </li>
               <li>
-                3 Bed
+                {{ unit.bed }} Bed
               </li>
               <li>
-                2 Bath
+                {{ unit.bath }} Bath
               </li>
             </ul>
-            <h5 class="price"><sup>$</sup>200,000</h5>
+            <h5 class="price"><sup>$</sup>{{ unit.price }}</h5>
+            </div>
           </div>
 
         </div>
