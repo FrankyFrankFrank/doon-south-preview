@@ -201,18 +201,17 @@
 
     </div>
 
-    <div class="row viewer">
-
-      <div class="home-type col-xs-12 col-sm-10 col-sm-offset-1 col-lg-offset-2">
-        <div id="villas" class="active">
+    <div id="viewer" class="row viewer">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-offset-2 home-type">
+        <p v-on:click="changeType('villas')" v-bind:class="{ active: active == 'villas'}" id="villas">
           Villas
-        </div>
-        <div id="towns">
+        </p>
+        <p v-on:click="changeType('towns')"  v-bind:class="{ active: active == 'towns'}" id="towns">
           Towns
-        </div>
+        </p>
       </div>
 
-      <div class="col-sm-12 col-md-4 col-md-offset-1 col-lg-3 col-lg-offset-2">
+      <div class="col-xs-12 col-md-4 col-md-offset-1 col-lg-3 col-lg-offset-2">
 
         <div class="row details">
 
@@ -325,14 +324,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.js"></script>
 
   <!-- VUE Form Code -->
-  <script>
-    var app = new Vue({
-        el: '#form',
-        data: {
-            homeowner: false
-        }
-    });
-  </script>
+  <script><?php include('includes/app.js') ?></script>
 
   <!-- Facebook Pixel Code -->
   <script>
@@ -362,8 +354,6 @@
     ga('send', 'pageview');
 
   </script>
-
-
 
   </body>
 </html>
