@@ -39,7 +39,7 @@
 
     <div class="row">
 
-      <div class="intro col-xs-12 col-sm-6 col-sm-offset-1">
+      <div class="intro col-xs-12 col-sm-6 col-sm-offset-1 col-lg-3 col-lg-offset-2">
         <h2>Explore</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -50,7 +50,7 @@
 
     <div class="row">
 
-      <div class="amenity col-xs-6 col-sm-3 col-sm-offset-1">
+      <div class="amenity col-xs-6 col-sm-3 col-sm-offset-1 col-lg-2 col-lg-offset-2">
         <img class="amenity-icon" src="img/amenity-parks.svg" alt="Parks Icon" />
         <h3>Parks</h3>
         <p>
@@ -58,7 +58,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6 col-sm-3">
+      <div class="amenity col-xs-6 col-sm-3 col-lg-2">
         <img class="amenity-icon" src="img/amenity-greenspace-and-marshland.svg" alt="Parks Icon" />
         <h3>Greenspace</h3>
         <p>
@@ -66,7 +66,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6 col-sm-3">
+      <div class="amenity col-xs-6 col-sm-3 col-lg-2">
         <img class="amenity-icon" src="img/amenity-trails.svg" alt="Parks Icon" />
         <h3>Trails</h3>
         <p>
@@ -74,7 +74,9 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6 col-sm-3 col-sm-offset-1">
+      <div class="clearfix visible-lg"></div>
+
+      <div class="amenity col-xs-6 col-sm-3 col-sm-offset-1  col-lg-2 col-lg-offset-2">
         <img class="amenity-icon" src="img/amenity-fishing.svg" alt="Parks Icon" />
         <h3>Fishing</h3>
         <p>
@@ -82,7 +84,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6 col-sm-3">
+      <div class="amenity col-xs-6 col-sm-3 col-lg-2">
         <img class="amenity-icon" src="img/amenity-culture.svg" alt="Parks Icon" />
         <h3>Culture</h3>
         <p>
@@ -90,7 +92,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6 col-sm-3">
+      <div class="amenity col-xs-6 col-sm-3 col-lg-2">
         <img class="amenity-icon" src="img/amenity-sports.svg" alt="Parks Icon" />
         <h3>Sports</h3>
         <p>
@@ -98,7 +100,9 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6 col-sm-3 col-sm-offset-1">
+      <div class="clearfix visible-lg"></div>
+
+      <div class="amenity col-xs-6 col-sm-3 col-sm-offset-1 col-lg-2 col-lg-offset-2">
         <img class="amenity-icon" src="img/amenity-golf.svg" alt="Parks Icon" />
         <h3>Golf</h3></h3>
         <p>
@@ -106,7 +110,7 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6 col-sm-3">
+      <div class="amenity col-xs-6 col-sm-3 col-lg-2">
         <img class="amenity-icon" src="img/amenity-shopping.svg" alt="Parks Icon" />
         <h3>Shopping</h3>
         <p>
@@ -114,13 +118,15 @@
         </p>
       </div>
 
-      <div class="amenity col-xs-6 col-sm-3">
+      <div class="amenity col-xs-6 col-sm-3 col-lg-2">
         <img class="amenity-icon" src="img/amenity-school.svg" alt="Parks Icon" />
         <h3>Schools</h3>
         <p>
           Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.
         </p>
       </div>
+
+      <div class="clearfix visible-lg"></div>
 
       <div class="col-xs-12 text-center">
         <img class="ds-caret" src="img/graphic-gold-caret.svg" />
@@ -137,7 +143,7 @@
 
     <div class="row">
 
-      <div class="col-xs-12 col-sm-6 col-sm-offset-1 col-md-5">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1 col-md-5 col-lg-3 col-lg-offset-2">
         <div class="intro">
           <h2>Connect</h2>
           <p>
@@ -148,7 +154,7 @@
 
       <div class="clearfix visible-xs visible-sm"></div>
 
-      <div class="col-xs-6 col-sm-2 col-sm-offset-1 col-md-offset-0">
+      <div class="col-xs-6 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-1">
         <h3>Flora</h3>
         <ul>
           <li>Lorem ipsum</li>
@@ -161,7 +167,7 @@
         </ul>
       </div>
 
-      <div class="col-xs-6 col-sm-2">
+      <div class="col-xs-6 col-sm-3 col-md-2">
         <h3>Fauna</h3>
         <ul>
           <li>Lorem ipsum</li>
@@ -186,7 +192,7 @@
 
     <div class="row">
 
-      <div class="intro col-xs-12 col-sm-5 col-sm-offset-1">
+      <div class="intro col-xs-12 col-sm-5 col-sm-offset-1 col-lg-offset-2">
         <h2>Live</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -197,7 +203,7 @@
 
     <div class="row viewer">
 
-      <div class="home-type col-xs-12 col-sm-10 col-sm-offset-1">
+      <div class="home-type col-xs-12 col-sm-10 col-sm-offset-1 col-lg-offset-2">
         <div id="villas" class="active">
           Villas
         </div>
@@ -206,7 +212,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-4 col-md-offset-1">
+      <div class="col-sm-12 col-md-4 col-md-offset-1 col-lg-3 col-lg-offset-2">
 
         <div class="row details">
 
@@ -240,7 +246,7 @@
 
       </div>
 
-      <div class="floorplan col-xs-12 col-md-6">
+      <div class="floorplan col-xs-12 col-md-6 col-lg-5">
         <img class="img img-responsive center-block" src="img/floorplan-upland-1.png" alt="uploand floorplan 1"/>
       </div>
 
@@ -252,7 +258,7 @@
 
     <div class="row">
 
-      <div class="intro col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-1">
+      <div class="intro col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-3 col-lg-offset-2">
         <h2>Siteplan</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -263,7 +269,7 @@
         </ul>
       </div>
 
-      <div class="map col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0">
+      <div class="map col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-5">
         <img class="img img-responsive" src="img/doon-south-siteplan.jpg" alt="sitemap" />
       </div>
 

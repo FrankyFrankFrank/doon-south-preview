@@ -6,14 +6,7 @@
   border-radius: 0;
   margin-bottom: 0;
 }
-.jumbotron {
-  background-image: url('../img/jumbotron-01-xs.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
-  background-color: rgb(97, 93, 99);
-  background-blend-mode: overlay;
-}
+
 .jumbotron .logo {
   margin-top: 270px;
   max-width:400px;
@@ -22,6 +15,35 @@
 .jumbotron .ds-caret {
   margin-top: 270px;
   margin-bottom: 50px;
+}
+
+.jumbotron {
+  background-repeat: no-repeat;
+  background-position:center;
+  background: url('../img/jumbotron-01-xs.jpg'), linear-gradient(360deg, rgba(47, 34, 53, 1), rgba(116, 116, 116, 1));
+  background-size: cover, 400% 400%;
+  background-blend-mode: soft-light;
+
+  -webkit-animation: jumbo-color 10s ease infinite;
+  -moz-animation: jumbo-color 10s ease infinite;
+  animation: jumbo-color 10s ease infinite;
+
+}
+
+@-webkit-keyframes jumbo-color {
+    0%{background-position: center, 4% 0% }
+    50%{background-position: center, 97% 100% }
+    100%{background-position: center, 4% 0% }
+}
+@-moz-keyframes jumbo-color {
+    0%{background-position: center, 4% 0% }
+    50%{background-position: center, 97% 100% }
+    100%{background-position: center, 4% 0% }
+}
+@keyframes jumbo-color {
+    0%{background-position: center, 4% 0% }
+    50%{background-position: center, 97% 100% }
+    100%{background-position: center, 4% 0% }
 }
 
 .ds-caret {
@@ -301,7 +323,7 @@ sup {
 @media (min-width: 768px) {
 
   .jumbotron {
-    background-image: url('../img/jumbotron-01-xs.jpg');
+    /*background-image: url('../img/jumbotron-01-xs.jpg');*/
   }
 
   .jumbotron .logo {
@@ -349,7 +371,7 @@ sup {
 @media (min-width: 992px) {
 
   .jumbotron {
-    background-image: url('../img/jumbotron-01-sm.jpg');
+    /*background-image: url('../img/jumbotron-01-sm.jpg');*/
   }
 
   .viewer .unit {
@@ -368,6 +390,18 @@ sup {
   .connect-bg {
     background-image: url('../img/doon-south-blowing-dandielions.jpg');
     background-position: center;
+  }
+
+}
+
+/***************************/
+/*         DESKTOP         */
+/***************************/
+
+@media (min-width: 1200px) {
+
+  .explore {
+    background-position: 17% 40px;
   }
 
 }
