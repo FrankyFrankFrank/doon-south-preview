@@ -19,6 +19,9 @@
   <!-- Form Stylesheet -->
   <link rel="stylesheet" href="css/form.css" type="text/css">
 
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+
   </head>
   <body>
 
@@ -224,7 +227,7 @@
 
           <!-- Pill -->
           <div class="unit col-xs-12 col-sm-6 col-md-12">
-            <div v-for="unit in activated" v-on:click="activate(unit)" class="pill" v-bind:class="{ active: unit.active }">{{ unit.location }}</div>
+            <div v-for="unit in activated" v-on:click="activate(unit)" class="pill animated" v-bind:class="{ active: unit.active }">{{ unit.location }}</div>
           </div>
 
           <!-- Details Description-->
@@ -247,7 +250,7 @@
 
       <div class="floorplan col-xs-12 col-md-6 col-lg-5">
         <div v-for="unit in activated">
-          <img v-show="unit.active" class="img img-responsive center-block" v-bind:src="viewerDir + 'floorplan-' + unit.name + '.png'" v-bind:alt="unit.name + ' Floorplan'" />
+          <img id="floorplan" v-show="unit.active" class="img img-responsive center-block" v-bind:src="viewerDir + 'floorplan-' + unit.name + '.png'" v-bind:alt="unit.name + ' Floorplan'" />
         </div>
       </div>
 

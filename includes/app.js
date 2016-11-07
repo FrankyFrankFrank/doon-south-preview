@@ -4,6 +4,7 @@ $(document).ready( function() {
   hammertime.on('swipe', function(ev) {
     console.log('hello');
   });
+
 });
 
 
