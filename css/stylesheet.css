@@ -155,13 +155,20 @@
 
 .viewer #villas, .viewer #towns {
   background-color: rgba(255,255,255,0.59);
-  border: 2px solid #2f2235;
+  border: 4px solid #c7c7c7;
+  color: #c7c7c7;
+  cursor: pointer;
   font-size: 1.6em;
   display: inline-block;
   padding: 7px 26px;
   margin-top:6px;
   margin-bottom: 6px;
   text-transform: uppercase;
+}
+
+.viewer #villas:hover, .viewer #towns:hover {
+  border: 4px solid #2f2235;
+  color: #c7c7c7;
 }
 
 .viewer #villas {
@@ -173,8 +180,8 @@
 }
 
 .viewer #villas.active, .viewer #towns.active {
-  background-color: #2f2235;
-  color: #ffffff;
+  border-color: #2f2235;
+  color: #2f2235;
 }
 
 .viewer .details {
@@ -185,15 +192,24 @@
   margin-top: 3px;
   margin-bottom: 12px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .viewer .unit .pill {
-  background-color: rgba(195,153,108,0.73);
+  background-color: #ffffff;
+  border: 4px solid #c7c7c7;
+  color: #c7c7c7;
+  cursor: pointer;
   display: inline-block;
-  height: 18px;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 5px 16px;
   margin-left: 12px;
   margin-right: 12px;
-  width: 74px;
+}
+
+.viewer .unit .pill:hover {
+  border: 4px solid #c3996c;
 }
 
 .viewer .unit .pill:first-child {
@@ -205,7 +221,9 @@
 }
 
 .viewer .unit .pill.active {
-  background-color: #c3996c;
+  background-color: #ffffff;
+  border: 4px solid #c3996c;
+  color: #c3996c;
 }
 
 .viewer .drawing {

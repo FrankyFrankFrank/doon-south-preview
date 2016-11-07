@@ -215,28 +215,25 @@
 
         <div class="row details">
 
+          <!-- Drawing -->
           <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-12 col-md-offset-0">
             <img class="drawing" src="img/graphic-villa-upland.svg" />
           </div>
 
+          <!-- Pill -->
           <div class="unit col-xs-12 col-sm-6 col-md-12">
-            <div v-for="unit in activated" class="pill" v-bind:class="{ active: unit.active }"></div>
+            <div v-for="unit in activated" v-on:click="activate(unit)" class="pill" v-bind:class="{ active: unit.active }">{{ unit.location }}</div>
           </div>
 
+          <!-- Details Description-->
           <div v-for="unit in activated" class="description col-xs-12 col-sm-6 col-md-12 col-md-offset-0">
             <div v-show="unit.active">
             <h4><strong>{{ unit.location }}</strong> Unit</h4>
             <h3>{{ unit.name }}</h3>
             <ul>
-              <li>
-                {{ unit.sqft }} Sq. Ft.
-              </li>
-              <li>
-                {{ unit.bed }} Bed
-              </li>
-              <li>
-                {{ unit.bath }} Bath
-              </li>
+              <li>{{ unit.sqft }} Sq. Ft.</li>
+              <li>{{ unit.bed }} Bed</li>
+              <li>{{ unit.bath }} Bath</li>
             </ul>
             <h5 class="price"><sup>$</sup>{{ unit.price }}</h5>
             </div>

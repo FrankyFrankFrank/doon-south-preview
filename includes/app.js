@@ -73,6 +73,14 @@ var viewer = new Vue({
   methods: {
     changeType: function (type) {
       this.active = type
+    },
+    activate: function (unit) {
+      for ( var i = 0; i < this.activated.length; i++) {
+        if ( this.activated[i].active == true) {
+          this.activated[i].active = false
+        }
+      }
+      unit.active = true
     }
   }
 });
