@@ -1,10 +1,24 @@
+$(document).ready( function() {
+  var hm = document.getElementById('viewer');
+  var hammertime = new Hammer(hm);
+  hammertime.on('pan', function(ev) {
+    console.log('hello');
+  });
+});
+
+
 Vue.config.devtools = true;
 
 var form = new Vue({
+
   el: '#form',
+
   data: {
+
     homeowner: false,
+
   }
+
 });
 
 var viewer = new Vue({

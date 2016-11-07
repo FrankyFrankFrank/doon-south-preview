@@ -5,7 +5,7 @@
 <!--[if gte IE 9]><!--><html><!--<![endif]-->
   <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
     <title>Doon South</title>
   <meta name="author" content="name">
   <meta name="description" content="Doon South Home Community">
@@ -315,6 +315,8 @@
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
   <!-- Typekit  -->
   <script src="https://use.typekit.net/pyo8kfd.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -325,7 +327,7 @@
   <!-- Vue JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.js"></script>
 
-  <!-- VUE Form Code -->
+  <!-- VUE Code -->
   <script><?php include('includes/app.js') ?></script>
 
   <!-- Facebook Pixel Code -->
