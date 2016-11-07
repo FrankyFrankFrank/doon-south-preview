@@ -217,7 +217,9 @@
 
           <!-- Drawing -->
           <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-12 col-md-offset-0">
-            <img class="drawing" src="img/graphic-villa-upland.svg" />
+            <div v-for="unit in activated">
+              <img v-show="unit.active" class="drawing" v-bind:src="viewerDir + 'elevation-' + unit.name + '.svg'" />
+            </div>
           </div>
 
           <!-- Pill -->
@@ -244,7 +246,9 @@
       </div>
 
       <div class="floorplan col-xs-12 col-md-6 col-lg-5">
-        <img class="img img-responsive center-block" src="img/floorplan-upland-1.png" alt="uploand floorplan 1"/>
+        <div v-for="unit in activated">
+          <img v-show="unit.active" class="img img-responsive center-block" v-bind:src="viewerDir + 'floorplan-' + unit.name + '.png'" v-bind:alt="unit.name + ' Floorplan'" />
+        </div>
       </div>
 
     </div>

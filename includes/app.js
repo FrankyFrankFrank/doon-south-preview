@@ -3,19 +3,25 @@ Vue.config.devtools = true;
 var form = new Vue({
   el: '#form',
   data: {
-    homeowner: false
+    homeowner: false,
   }
 });
 
 var viewer = new Vue({
+
   el: '#viewer',
+
   data: {
+
     active: 'villas',
+
+    viewerDir: 'img/viewer/',
+
     units: {
 
       villas: [
         {
-          name: 'Upland',
+          name: 'upland',
           active: true,
           type: 'villa',
           location: 'Upper',
@@ -25,7 +31,7 @@ var viewer = new Vue({
           price: '200,000'
         },
         {
-          name: 'Woodland',
+          name: 'woodland',
           active: false,
           type: 'villa',
           location: 'Lower',
@@ -38,7 +44,7 @@ var viewer = new Vue({
 
       towns: [
         {
-          name: 'Hillside',
+          name: 'hillside',
           active: true,
           type: 'town',
           location: 'Exterior',
@@ -48,7 +54,7 @@ var viewer = new Vue({
           price: '300,000'
         },
         {
-          name: 'Stone Creek',
+          name: 'stone creek',
           active: false,
           type: 'town',
           location: 'Interior',
