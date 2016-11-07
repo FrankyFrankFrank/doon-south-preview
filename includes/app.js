@@ -1,7 +1,7 @@
 $(document).ready( function() {
   var hm = document.getElementById('viewer');
   var hammertime = new Hammer(hm);
-  hammertime.on('pan', function(ev) {
+  hammertime.on('swipe', function(ev) {
     console.log('hello');
   });
 });
