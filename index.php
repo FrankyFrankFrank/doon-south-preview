@@ -312,7 +312,7 @@
 
 
   <!-- Jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+  <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
 
   <!-- Modernizr -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
@@ -321,20 +321,20 @@
 
   <script src="js/hammer-touch.js"></script>
   <script> TouchEmulator(); </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+  <script src="js/hammer.min.js"></script>
 
   <!-- Typekit  -->
   <script src="https://use.typekit.net/pyo8kfd.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
   <!-- Bootstrap JS -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
   <!-- Vue JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.js"></script>
+  <script src="js/vue.min.js"></script>
 
-  <!-- VUE Code -->
-  <script><?php include('includes/app.js') ?></script>
+  <!-- Our Code -->
+  <script src="js/app.js"></script>
 
   <!-- Facebook Pixel Code -->
   <script>
