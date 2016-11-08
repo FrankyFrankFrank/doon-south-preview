@@ -93,6 +93,7 @@
 .amenity h3 {
   color: #c3996c;
   text-transform: uppercase;
+  font-size: 1.35em;
 }
 
 .connect {
@@ -299,7 +300,9 @@ sup {
 }
 
 .floorplan {
+  height: 70vh;
   margin-bottom: 44px;
+  overflow: hidden;
   padding-top: 22px;
   padding-bottom: 22px;
 }
@@ -312,6 +315,11 @@ sup {
   background-repeat: no-repeat;
   padding-top: 140px;
   padding-bottom: 70px;
+}
+
+.map {
+  max-height: 70vh;
+  overflow: hidden;
 }
 
 .legend {

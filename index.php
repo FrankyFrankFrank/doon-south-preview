@@ -274,7 +274,7 @@
       </div>
 
       <div class="map col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-5">
-        <img class="img img-responsive" src="img/doon-south-siteplan.jpg" alt="sitemap" />
+        <img id="siteplan" class="img img-responsive center-block" src="img/doon-south-siteplan.jpg" alt="siteplan" />
       </div>
 
     </div>
@@ -314,10 +314,16 @@
   </div>
 
 
+  <!-- Jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
 
+  <!-- Modernizr -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
 
+  <!-- Hammer JS -->
+
+  <script src="js/hammer-touch.js"></script>
+  <script> TouchEmulator(); </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 
   <!-- Typekit  -->
