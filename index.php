@@ -19,9 +19,6 @@
   <!-- Form Stylesheet -->
   <link rel="stylesheet" href="css/form.css" type="text/css">
 
-  <!-- Animate.css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-
   </head>
   <body>
 
