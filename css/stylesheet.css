@@ -4,6 +4,7 @@
 
 .jumbotron {
   border-radius: 0;
+  height: 100vh;
   margin-bottom: 0;
 }
 
@@ -13,10 +14,11 @@
 }
 
 .jumbotron .ds-caret {
-  margin-top: 270px;
+  margin-top: 130px;
   margin-bottom: 50px;
 }
 
+/*Jumbotron Background Styling*/
 .jumbotron {
   background-repeat: no-repeat;
   background-position:center;
