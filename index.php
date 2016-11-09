@@ -290,7 +290,7 @@
 
     </div>
 
-    <?php include('form.php') ?>
+    <?php include('includes/form.php') ?>
 
     <div class="row">
         <div class="col-sm-offset-1 col-md-6 col-md-offset-3 col-sm-10">
