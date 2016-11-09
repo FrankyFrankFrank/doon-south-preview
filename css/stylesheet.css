@@ -105,6 +105,17 @@
   font-size: 1.35em;
 }
 
+.amenity ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.amenity li {
+  letter-spacing: 0.7px;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+
 .connect {
   background-color: #f7f7f7;
   background-repeat: no-repeat;
@@ -170,7 +181,7 @@
   cursor: pointer;
   display: block;
   float: left;
-  font-size: 1.6em;
+  font-size: 1.4em;
   padding: 7px 26px;
   margin-top:4px;
   margin-bottom: 6px;
@@ -309,8 +320,8 @@ sup {
 }
 
 .floorplan {
-  height: 70vh;
-  margin-bottom: 44px;
+  margin-bottom: 50px;
+  margin-top: 34px;
   overflow: hidden;
   padding-top: 22px;
   padding-bottom: 22px;
