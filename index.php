@@ -19,6 +19,9 @@
   <!-- Form Stylesheet -->
   <link rel="stylesheet" href="css/form.css" type="text/css">
 
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+
   </head>
   <body>
 
@@ -29,7 +32,7 @@
         <img class="logo" src="img/logo-1-grey.svg" alt="Doon South - Naturally embraced living" />
       </div>
       <div class="col-md-12 text-center">
-        <img class="ds-caret" src="img/graphic-silver-caret.svg" />
+        <img id="animated-caret-1" class="animated bounce ds-caret" src="img/graphic-silver-caret.svg" />
       </div>
     </div>
 
@@ -128,9 +131,9 @@
 
       <div class="clearfix visible-lg"></div>
 
-      <div class="col-xs-12 text-center">
+      <!-- <div class="col-xs-12 text-center">
         <img class="ds-caret" src="img/graphic-gold-caret.svg" />
-      </div>
+      </div> -->
 
     </div>
 
@@ -180,9 +183,9 @@
         </ul>
       </div>
 
-      <div class="col-xs-12 text-center">
+      <!-- <div class="col-xs-12 text-center">
         <img class="ds-caret" src="img/graphic-purple-caret.svg" />
-      </div>
+      </div> -->
 
     </div>
 
