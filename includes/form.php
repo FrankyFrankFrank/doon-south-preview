@@ -4,7 +4,7 @@
   <form action="//activagroup.us2.list-manage.com/subscribe/post?u=defa4cb9c993c4724097264fb&amp;id=c1a1bc77d8" class="validate form-horizontal" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
 
     <div class="form col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
-
+      
       <div class="text-right help-block">
           <span class="asterisk">*</span> indicates required
       </div>

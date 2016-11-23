@@ -7,7 +7,7 @@
 <!-- Hammer JS -->
 
 <script src="js/hammer-touch.js"></script>
-<script> TouchEmulator(); </script>
+<!-- <script> TouchEmulator(); </script> -->
 <script src="js/hammer.min.js"></script>
 
 <!-- Typekit  -->

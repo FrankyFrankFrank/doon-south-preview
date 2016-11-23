@@ -8,8 +8,12 @@
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
     <title>Doon South</title>
   <meta name="author" content="name">
-  <meta name="description" content="Doon South Home Community">
-  <meta name="keywords" content="Doon South, Home, Home Builder">
+  <meta name="description" content="New Townhomes, Villas, Condos in Kitchener Ontario">
+  <meta name="keywords" content="Doon South, Home, Home Builder, Townhomes, Villas,Condos, New Homes">
+
+  <!-- Remove tap highlight on Windows Phone -->
+  <meta name="msapplication-tap-highlight" content="no" />
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
 
@@ -32,20 +36,28 @@
         <img class="logo" src="img/logo-1-grey.svg" alt="Doon South - Naturally embraced living" />
       </div>
       <div class="col-md-12 text-center">
+        <ul class="menu list-unstyled">
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#connect">Connect</a></li>
+          <li><a href="#floorplans">Floorplans</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </div>
+      <div class="col-md-12 text-center">
         <img id="animated-caret-1" class="animated bounce ds-caret" src="img/graphic-silver-caret.svg" />
       </div>
     </div>
 
   </div><!-- end JUMBOTRON-->
 
-  <div class="container-fluid explore">
+  <div id="experience" class="container-fluid explore">
 
     <div class="row">
 
       <div class="intro col-xs-12 col-sm-6 col-sm-offset-1 col-lg-3 col-lg-offset-2">
         <h2>Experience</h2>
         <p>
-          Relish the feeling of nature as you drive down the secluded roads and inhale the fresh air from the surrounding greenery. When it’s time to slip back into the bustle of the city, take comfort in knowing you’re mere minutes from major city centres and access to highway 401.
+          Relish the feeling of nature as you drive down the secluded roads and inhale the fresh air from the surrounding greenery. When it’s time to slip back into the bustle of the city, take comfort in knowing you’re mere minutes from major city centres and access to <span style="display: inline-block">highway 401</span>.
         </p>
       </div>
 
@@ -73,9 +85,8 @@
           <li>Tilts Bush</li>
           <li>Topper Woods</li>
           <li>Strasburg Creek</li>
-          <li>Pinnacle Hill</li>
-          <li>Natural Area</li>
-          <li>Blair creek natural area</li>
+          <li>Pinnacle Hill Natural Area</li>
+          <li>Blair Creek Natural area</li>
         </ul>
       </div>
 
@@ -181,7 +192,7 @@
 
   </div><!-- End EXPLORE -->
 
-  <div class="container-fluid connect-bg">
+  <div id="connect" class="container-fluid connect-bg">
   </div>
 
   <div class="container-fluid connect">
@@ -249,10 +260,11 @@
 
   </div><!-- end CONNECT -->
 
+  <?php include('includes/live.php') ?>
 
   <!-- REGISTER -->
 
-  <div class="container-fluid register">
+  <div id="register" class="container-fluid register">
 
     <div class="row">
 
@@ -276,9 +288,6 @@
 
         </div>
 
-        <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-5" id="foliage">
-          <img alt="Doon South Foliage Background" class="img-responsive" src="img/graphic-leaf-footer.svg">
-        </div>
 
     </div>
 

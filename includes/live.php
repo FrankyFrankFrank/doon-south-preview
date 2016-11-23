@@ -1,11 +1,13 @@
-<div class="container-fluid live">
+<div id="floorplans" class="container-fluid live">
 
   <div class="row">
 
-    <div class="intro col-xs-12 col-sm-5 col-sm-offset-1 col-lg-offset-2">
+    <div class="intro col-xs-12 col-sm-4 col-sm-offset-1 col-lg-offset-2">
       <h2>Live</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        Buying a home is buying a future – a community, a lifestyle, a backdrop for life’s <span style="display: inline-block">unforgettable moments</span>.
+      </p>
+      <p>As a local builder and developer, we are here to stay long after your home is complete, supporting local initiatives that contribute to the Regions <span style="display: inline-block">growth and success</span>.
       </p>
     </div>
 
@@ -28,7 +30,7 @@
         <!-- Drawing -->
         <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-12 col-md-offset-0">
           <div v-for="unit in activated">
-            <img v-show="unit.active" class="drawing" v-bind:src="viewerDir + 'elevation-' + unit.name + '.svg'" />
+            <img v-show="unit.active" class="drawing img img-responsive" v-bind:src="viewerDir + 'elevation-' + unit.type + '.jpg'" />
           </div>
         </div>
 
@@ -42,11 +44,12 @@
           <div v-show="unit.active">
           <h4><strong>{{ unit.location }}</strong> Unit</h4>
           <h3>{{ unit.name }}</h3>
-          <ul>
+          <ul class="info">
             <li>{{ unit.sqft }} Sq. Ft.</li>
             <li>{{ unit.bed }} Bed</li>
             <li>{{ unit.bath }} Bath</li>
           </ul>
+          <span class="starting-at">Starting At:</span>
           <h5 class="price"><sup>$</sup>{{ unit.price }}</h5>
           </div>
         </div>
@@ -55,9 +58,13 @@
 
     </div>
 
-    <div class="floorplan col-xs-12 col-md-6 col-lg-5">
+    <div class="floorplan col-xs-10 col-xs-offset-1 col-md-6 col-lg-5">
       <div v-for="unit in activated">
-        <img id="floorplan" v-show="unit.active" class="img img-responsive center-block" v-bind:src="viewerDir + 'floorplan-' + unit.name + '.png'" v-bind:alt="unit.name + ' Floorplan'" />
+        <div v-show="unit.active">
+          <!-- <p class="tip hidden-sm hidden-xs"><span class="glyphicon glyphicon-hand-right"></span> Shift + Drag Click to Zoom</p> -->
+          <a v-bind:href="viewerDir + 'floorplan-' + unit.name + '.png'" class="download hidden-sm hidden-xs"><span class="glyphicon glyphicon-download"></span> Save</a>
+          <img id="floorplan" v-show="unit.active" class="img img-responsive" v-bind:src="viewerDir + 'floorplan-' + unit.name + '.png'" v-bind:alt="unit.name + ' Floorplan'" />
+        </div>
       </div>
     </div>
 
