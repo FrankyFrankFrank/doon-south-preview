@@ -40,6 +40,7 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#connect">Connect</a></li>
           <li><a href="#floorplans">Floorplans</a></li>
+          <li><a href="#price-sheet">Pricing</a></li>
           <li><a href="#register">Register</a></li>
         </ul>
       </div>
@@ -261,6 +262,19 @@
   </div><!-- end CONNECT -->
 
   <?php include('includes/live.php') ?>
+
+  <!-- PRICE SHEET -->
+
+  <div id="price-sheet" class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        <h2>Download the Price Sheet</h2>
+        <a href="files/Doon_South_Price_Sheet_Web_2016-11-24.pdf" download class="download"><span class="glyphicon glyphicon-download"></span> DOWNLOAD .PDF</a>
+      </div>
+    </div>
+  </div>
+  <!-- End PRICE SHEET -->
+
 
   <!-- REGISTER -->
 
