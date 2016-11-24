@@ -9,7 +9,7 @@
 }
 
 .jumbotron .logo {
-  margin-top: 60%;
+  margin-top: 37%;
   margin-bottom: 50px;
   max-width:400px;
 }
@@ -37,6 +37,32 @@
   -moz-animation: jumbo-color 10s ease infinite;
   animation: jumbo-color 10s ease infinite;
 
+}
+
+.jumbotron .menu {
+  text-align:center;
+}
+
+.jumbotron .menu li {
+  border: 2px solid;
+  border-color: #ffffff;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin: 8px 1%;
+  padding: 6px 14px;
+  text-transform: uppercase;
+}
+
+.jumbotron .menu a {
+  color: #ffffff;
+}
+
+.jumbotron .menu a:hover {
+  text-decoration: none;
+}
+
+.jumbotron .menu li:hover {
+  border-color: #2f2235;
 }
 
 @-webkit-keyframes jumbo-color {
@@ -286,11 +312,11 @@
   margin-top: 3px;
 }
 
-.description ul {
+.description .info {
   -webkit-padding-start: 0;
 }
 
-.description li {
+.description .info li {
   display: inline-block;
   font-weight: 600;
   text-transform: uppercase;
@@ -299,11 +325,11 @@
   padding-left: 12px;
 }
 
-.description li:first-child {
+.description .info li:first-child {
   padding-left: 0;
 }
 
-.description li:last-child {
+.description .info li:last-child {
   border-right: 0;
 }
 
@@ -311,6 +337,7 @@
   font-size: 2.8em;
   font-weight: 600;
   letter-spacing: -1.6px;
+  margin-top: 0;
   transform: scaleX(0.9);
   transform-origin: left top;
 }
@@ -321,10 +348,36 @@ sup {
 
 .floorplan {
   margin-bottom: 50px;
-  margin-top: 34px;
+  /*margin-top: 34px;*/
   overflow: hidden;
   padding-top: 22px;
   padding-bottom: 22px;
+}
+
+.floorplan .download {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px;
+  background-color: #2f2235;
+  border-radius: 0 0 0 21px;
+  color: white;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.floorplan .download:hover {
+  background-color: #664a73;
+  text-decoration: none;
+}
+
+.floorplan .tip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 12px;
+  background: #ffffff;
+  color: #2f2235;
 }
 
 .siteplan {
@@ -373,11 +426,25 @@ sup {
 }
 
 .register {
-  padding-top: 150px;
+  padding-top: 10vh;
+  background-image: url('../img/leaftop.svg');
+  background-position: 50% -200px;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+  background-size: cover;
 }
 
 .register .logo {
   margin-bottom: 44px;
+}
+
+#foliage {
+  height:160px;
+  background-image:url('../img/leafbottom.svg');
+  background-size:760px;
+  background-repeat: no-repeat;
+  background-position:50% 10%;
 }
 
 /*********************************/
@@ -393,6 +460,10 @@ sup {
   .jumbotron .logo {
     margin-top: 310px;
     max-width:500px;
+  }
+
+  .jumbotron .menu li {
+    display: inline-block;
   }
 
   .explore {
@@ -415,7 +486,8 @@ sup {
   }
 
   .viewer .floorplan {
-    background: #f7f7f7;
+    background: #ffffff;
+    border: 1px solid #f7f7f7;
   }
 
   .floorplan img {
@@ -438,6 +510,8 @@ sup {
     /*background-image: url('../img/jumbotron-01-sm.jpg');*/
   }
 
+
+
   .viewer .unit {
     padding-top: 0;
   }
@@ -448,7 +522,6 @@ sup {
 
   .viewer .drawing {
     text-align: left;
-    width: 83%;
   }
 
   .connect-bg {
