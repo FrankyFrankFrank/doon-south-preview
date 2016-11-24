@@ -170,7 +170,7 @@ var viewer = new Vue({
           sqft: '1575',
           bed: '3',
           bath: '2.5',
-          price: '324,900'
+          price: '339,900'
         },
         {
           name: 'stone creek',
@@ -180,7 +180,7 @@ var viewer = new Vue({
           sqft: '1355',
           bed: '2',
           bath: '2.5',
-          price: '339,900'
+          price: '324,900'
         }
       ]
 
