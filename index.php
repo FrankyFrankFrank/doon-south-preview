@@ -269,7 +269,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
         <h2>Download the Price Sheet</h2>
-        <a href="files/Doon_South_Price_Sheet_Web_2016-11-24.pdf" download class="download"><span class="glyphicon glyphicon-download"></span> DOWNLOAD .PDF</a>
+        <a href="files/Doon_South_Price_Sheet_Web_2016-12-05.pdf" download class="download"><span class="glyphicon glyphicon-download"></span> DOWNLOAD .PDF</a>
       </div>
     </div>
   </div>
